@@ -1,5 +1,4 @@
 "use client";
-
 import {
   UserGroupIcon,
   HomeIcon,
@@ -27,6 +26,7 @@ export default function NavLinks() {
     <>
       {links.map((link) => {
         const LinkIcon = link.icon;
+
         return (
           <Link
             key={link.name}
